@@ -2880,7 +2880,7 @@
   (symbol (lib_id "Device:R") (at 148.59 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 951b7f04-3bd9-48e0-a3b1-e47cb09aab6b)
-    (property "Reference" "R?" (id 0) (at 150.368 143.9453 0)
+    (property "Reference" "R6" (id 0) (at 150.368 143.9453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 150.368 146.4822 0)
@@ -3077,7 +3077,7 @@
   (symbol (lib_id "Device:R") (at 156.21 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da2ad276-2e89-44d0-84db-4f891312c40c)
-    (property "Reference" "R?" (id 0) (at 157.988 143.9453 0)
+    (property "Reference" "R10" (id 0) (at 157.988 143.9453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (id 1) (at 157.988 146.4822 0)
@@ -3341,6 +3341,9 @@
     (path "/5365bf23-551e-43be-ad53-c7b95f867e97"
       (reference "R5") (unit 1) (value "18K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
+    (path "/951b7f04-3bd9-48e0-a3b1-e47cb09aab6b"
+      (reference "R6") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
     (path "/15b39b88-b949-4b93-a72b-6f012cecbbf8"
       (reference "R7") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -3350,11 +3353,8 @@
     (path "/32ee4bf6-46f9-40ba-b38c-300dd8674062"
       (reference "R9") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/951b7f04-3bd9-48e0-a3b1-e47cb09aab6b"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/da2ad276-2e89-44d0-84db-4f891312c40c"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R10") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/01ae44e4-73c7-4652-a3e0-80facd31ecc5"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
