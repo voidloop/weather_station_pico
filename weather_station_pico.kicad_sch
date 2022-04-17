@@ -3151,7 +3151,7 @@
     (property "Reference" "C1" (id 0) (at 84.201 35.9953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 84.201 38.5322 0)
+    (property "Value" "" (id 1) (at 84.201 38.5322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (id 2) (at 82.2452 40.64 0)
@@ -3300,7 +3300,7 @@
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/eb529df0-006e-4c2f-99bd-b038e8ef398f"
-      (reference "C1") (unit 1) (value "C") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/6b3f8bcc-3de8-4f39-8ed0-7c34895de042"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
