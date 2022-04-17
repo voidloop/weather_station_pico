@@ -2664,8 +2664,8 @@
     (in_bom yes) (on_board yes)
     (uuid 52d6e53a-c8ef-4b23-a6a7-8729a222959a)
     (property "Reference" "J4" (id 0) (at 132.08 147.32 0))
-    (property "Value" "I2C" (id 1) (at 132.08 160.02 0))
-    (property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" (id 2) (at 132.08 152.4 0)
+    (property "Value" "" (id 1) (at 132.08 160.02 0))
+    (property "Footprint" "" (id 2) (at 132.08 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 152.4 0)
@@ -2867,7 +2867,7 @@
     (uuid 950840dd-58ab-430d-9239-f8d51e62b21c)
     (property "Reference" "J1" (id 0) (at 41.91 26.7802 0))
     (property "Value" "POWER" (id 1) (at 41.91 29.3171 0))
-    (property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (id 2) (at 41.91 31.75 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 41.91 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 31.75 0)
@@ -2883,7 +2883,7 @@
     (property "Reference" "R6" (id 0) (at 150.368 143.9453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 150.368 146.4822 0)
+    (property "Value" "10K" (id 1) (at 150.368 146.4822 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 146.812 144.78 90)
@@ -3315,7 +3315,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/950840dd-58ab-430d-9239-f8d51e62b21c"
-      (reference "J1") (unit 1) (value "POWER") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
+      (reference "J1") (unit 1) (value "POWER") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/31f5e120-fc67-4891-91d3-9e217a46063f"
       (reference "J2") (unit 1) (value "WSPEED") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
@@ -3324,7 +3324,7 @@
       (reference "J3") (unit 1) (value "WDIR") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
     )
     (path "/52d6e53a-c8ef-4b23-a6a7-8729a222959a"
-      (reference "J4") (unit 1) (value "I2C") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+      (reference "J4") (unit 1) (value "I2C") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal")
     )
     (path "/26932649-bf50-4889-b6d1-6949f1bf115e"
       (reference "R1") (unit 1) (value "220K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
