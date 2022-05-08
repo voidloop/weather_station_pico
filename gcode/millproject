@@ -1,0 +1,54 @@
+#front=../plots/cnc-test-F_Cu.gbr
+back=../plots/weather_station_pico-B_Cu.gbr
+outline=../plots/weather_station_pico-Edge_Cuts.gbr
+drill=../plots/weather_station_pico.drl
+#preamble=preamble.ngc
+#preamble-text=preamble_text.txt
+#postamble=postamble.ngc
+
+# Common options
+metric=true
+metricoutput=true
+mirror-absolute=false
+optimise=true
+zchange=15.0
+zero-start=true
+zsafe=2.0
+nog64=true
+
+# Mill options
+extra-passes=0
+mill-feed=90
+mill-speed=10000
+offset=0.1125
+zwork=-0.02
+
+# Drill options
+drill-feed=100
+drill-side=auto
+drill-speed=10000
+milldrill=false
+nog81=true
+nog91-1=true
+onedrill=false
+zdrill=-2.0
+
+# Outline options
+bridges=1
+bridgesnum=4
+cut-feed=30
+cut-side=back
+cut-infeed=0.54
+cut-speed=10000
+cutter-diameter=1.5
+fill-outline=true
+zbridges=-0.6
+zcut=-1.62
+
+# Autoleveller options
+al-back=false
+al-front=false
+#al-probefeed=100
+#al-x=15.0000
+#al-y=15.0000
+software=custom
